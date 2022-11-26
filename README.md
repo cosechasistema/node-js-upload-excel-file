@@ -34,4 +34,7 @@ npm install
 ### Run
 ```
 node src/server.js
+
+docker-compose up -d mysql
+
 ```
