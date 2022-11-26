@@ -9,6 +9,10 @@ let routes = (app) => {
 
   router.get("/download", excelController.download);
 
+  router.get("/", (req, res) => {
+    res.send("Hello World!");
+  });
+
   app.use("/api/excel", router);
 };
 
