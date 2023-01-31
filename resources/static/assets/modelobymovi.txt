@@ -1,0 +1,13 @@
+credencial
+fecha_imputacion
+cod_concepto
+tipo_comprobante
+prefijo_comprobante
+numero_comprobante
+leyenda	
+monto
+cuotas
+fecha_primer_venc
+frecuencia
+
+Son todo tipo texto menos monto (Tipo general) (Monto de la cuota )
