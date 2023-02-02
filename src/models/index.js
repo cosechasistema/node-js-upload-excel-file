@@ -21,5 +21,6 @@ db.sequelize = sequelize;
 
 db.tutorials = require("./tutorial.model.js")(sequelize, Sequelize);
 db.cuotaimpagas = require("./cuotaimpaga.model.js")(sequelize, Sequelize);
+db.afiliacion = require("./afiliacion.model.js")(sequelize, Sequelize);
 
 module.exports = db;
