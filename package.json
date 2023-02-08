@@ -19,6 +19,8 @@
   "author": "bezkoder",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.3",
     "exceljs": "^4.3.0",
     "express": "^4.18.2",
     "multer": "^1.4.5-lts.1",

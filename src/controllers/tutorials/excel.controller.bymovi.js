@@ -88,6 +88,7 @@ const downloadafiliaciones = (req, res) => {
     let worksheet = workbook.addWorksheet("afiliacion");
 
     worksheet.columns = [
+      { header: "documento", key: "documento", width: 45 },
       { header: "tipo_documento", key: "tipo_documento", width: 45 },
       { header: "credencial", key: "credencial", width: 45 },
       { header: "nombre", key: "nombre", width: 45 },
