@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "node-excel-bymovi",
+      "script": "./server.js",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  ]
+}
